@@ -24,7 +24,7 @@ sonuc = (x > 0) or (x % 2 == 0)
 # False ve False => False
 
 # not operatörü
-sonuc = not(x > 0)
+sonuc = x <= 0
 
 
 # x, 5-10 arasında bir çift sayı mı?

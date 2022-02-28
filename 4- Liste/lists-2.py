@@ -2,7 +2,7 @@ diller = ["Python","C#","Java","Javascript","React"]
 
 sonuc = diller
 sonuc = type(diller)
-sonuc = diller[0:2]
+sonuc = diller[:2]
 sonuc = diller[2:]
 sonuc = diller[:3]
 sonuc = diller[-1]

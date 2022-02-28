@@ -1,9 +1,4 @@
-isimler = ['Ada','Yiğit','Hasan','Beril']
-yaslar = [1998, 2000, 1998, 1987]
-
-# 1-  "Cenk" ismini listenin sonuna ekleyiniz.
-isimler.append('Cenk')
-
+isimler = ['Ada', 'Yiğit', 'Hasan', 'Beril', 'Cenk']
 # 2-  "Sena" değerini listenin başına ekleyiniz.
 isimler.insert(0,"Sena")
 isimler.insert(-1,"Sena")
@@ -25,6 +20,7 @@ print(sonuc)
 
 # 6-  Liste elemanlarını ters çevirin.
 isimler.reverse()
+yaslar = [1998, 2000, 1998, 1987]
 yaslar.reverse()
 
 # 7-  Liste elemanlarını alfabetik olarak sıralayınız.
@@ -48,13 +44,8 @@ print(yaslar.count(1998))
 # 12- yaslar dizisinin tüm elemanlarını siliniz.
 yaslar.clear()
 
-# 13- Kullanıcıdan alacağınız 3 tane marka bilgisini bir listede saklayınız.
-
-markalar = []
-
 marka = input("marka: ")
-markalar.append(marka)
-
+markalar = [marka]
 marka = input("marka: ")
 markalar.append(marka)
 
